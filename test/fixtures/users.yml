@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  first_name: Name1
+  last_name: LastName1
+
+two:
+  id: 2
+  first_name: Name2
+  last_name: LastName2

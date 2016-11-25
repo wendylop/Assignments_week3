@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recipe</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  	<div class="nav">
+			<ul class="nav-list">
+				<li>
+					<%= link_to "user", :controller => 'users', :action => 'index' %>
+				</li>
+				<li>
+					<%= link_to "recipe", :controller => 'recipe_titles', :action => 'index' %>
+				</li>
+			</ul>
+
+			<hr>
+		</div>
+
+    <%= yield %>
+  </body>
+</html>

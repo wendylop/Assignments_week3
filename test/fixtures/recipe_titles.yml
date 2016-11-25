@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  name: Recipe Title 1
+  category: Category 1
+  ingredient: Ingredient 1
+  user_id: 1
+
+two:
+  id: 2
+  name: Recipe Title 2
+  category: Category 2
+  ingredient: Ingredient 2
+  user_id: 2
